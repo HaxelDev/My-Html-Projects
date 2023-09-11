@@ -65,8 +65,10 @@ ul {
     margin-left: 20px;
 }
 .evolution-info {
+    background-color: #e0e0e0;
     margin-top: 20px;
     text-align: center;
+    border-radius: 5px;
 }
 .evolution-info img {
     max-width: 100%;
