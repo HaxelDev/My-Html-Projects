@@ -81,8 +81,9 @@ ul {
     border-top: 1px solid #ccc;
     margin: 20px 0;
 }
-.evolution-info p strong {
-    font-size: 18px;
+.evolution-info h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 .evolution-info p {
     font-size: 16px;
