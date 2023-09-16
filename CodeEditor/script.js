@@ -14,7 +14,7 @@ function runCode() {
         eval(code);
     } catch (error) {
         console.error(error);
-        consoleOutput.textContent += 'Błąd: ' + error.message + '\n';
+        consoleOutput.textContent += 'Error: ' + error.message + '\n';
     }
 }
 
