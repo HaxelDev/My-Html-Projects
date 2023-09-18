@@ -203,6 +203,220 @@
 					"learnsByEvolving": false
 				}
 			]
+		},
+		{
+			"name": "Charmander",
+			"dexNo": 4,
+			"heightMeters": 0.6,
+			"weightKg": 8.5,
+			"weightLbs": 18.7,
+			"genderless": false,
+			"maleRatio": 88.14,
+			"types": [
+				"Fire"
+			],
+			"jpNameRomanized": "Hitokage",
+			"jpName": "ヒトカゲ",
+			"decsription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"eggGroups": [
+				"Monster",
+				"Dragon"
+			],
+			"evolutionInfo": {
+				"canEvolve": true,
+				"evolvesTo": [
+					"Charmeleon"
+				],
+				"evolutionMethod": "Level Up",
+				"evolvesAtLevel": 16,
+				"evolutionItem": null,
+				"heldItemAtTrade": null
+			},
+			"attacks": [
+				{
+					"name": "Scratch",
+					"learnsAtLevel": 1,
+					"canLearnByLevelUp": true,
+					"learnsByEvolving": false
+				},
+				{
+					"name": "Growl",
+					"learnsAtLevel": 1,
+					"canLearnByLevelUp": true,
+					"learnsByEvolving": false
+				},
+				{
+					"name": "Ember",
+					"learnsAtLevel": 4,
+					"canLearnByLevelUp": true,
+					"learnsByEvolving": false
+				},
+				{
+					"name": "Smokescreen",
+					"learnsAtLevel": 8,
+					"canLearnByLevelUp": true,
+					"learnsByEvolving": false
+				},
+				{
+					"name": "Dragon Breath",
+					"learnsAtLevel": 12,
+					"canLearnByLevelUp": true,
+					"learnsByEvolving": false
+				}
+			]
+		},
+		{
+			"name": "Charmeleon",
+			"dexNo": 5,
+			"heightMeters": 1.1,
+			"weightKg": 19,
+			"weightLbs": 41.9,
+			"genderless": false,
+			"maleRatio": 88.14,
+			"types": [
+				"Fire"
+			],
+			"jpName": "Lizardo",
+			"jpNameRomanized": "リザード",
+			"decsription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"eggGroups": [
+				"Monster",
+				"Dragon"
+			],
+			"evolutionInfo": {
+				"canEvolve": true,
+				"evolvesTo": [
+					"Charizard"
+				],
+				"evolutionMethod": "Level Up",
+				"evolvesAtLevel": 32,
+				"evolutionItem": null,
+				"heldItemAtTrade": null
+			},
+			"attacks": [
+				{
+					"name": "Scratch",
+					"learnsAtLevel": 1,
+					"canLearnByLevelUp": true,
+					"learnsByEvolving": false
+				},
+				{
+					"name": "Growl",
+					"learnsAtLevel": 1,
+					"canLearnByLevelUp": true,
+					"learnsByEvolving": false
+				},
+				{
+					"name": "Ember",
+					"learnsAtLevel": 1,
+					"canLearnByLevelUp": true,
+					"learnsByEvolving": false
+				},
+				{
+					"name": "Smokescreen",
+					"learnsAtLevel": 1,
+					"canLearnByLevelUp": true,
+					"learnsByEvolving": false
+				},
+				{
+					"name": "Dragon Breath",
+					"learnsAtLevel": 12,
+					"canLearnByLevelUp": true,
+					"learnsByEvolving": false
+				}
+			]
+		},
+		{
+			"name": "Charizard",
+			"dexNo": 6,
+			"heightMeters": 1.7,
+			"weightKg": 90.5,
+			"weightLbs": 199.5,
+			"genderless": false,
+			"maleRatio": 88.14,
+			"types": [
+				"Fire",
+				"Flying"
+			],
+			"jpNameRomanized": "Lizardon",
+			"jpName": "リザードン",
+			"decsription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"eggGroups": [
+				"Monster",
+				"Dragon"
+			],
+			"evolutionInfo": {
+				"canEvolve": false,
+				"evolvesTo": [
+					null
+				],
+				"evolutionMethod": null,
+				"evolvesAtLevel": 0,
+				"evolutionItem": null,
+				"heldItemAtTrade": null
+			},
+			"attacks": [
+				{
+					"name": "Air Slash",
+					"learnsAtLevel": 1,
+					"canLearnByLevelUp": false,
+					"learnsByEvolving": true
+				},
+				{
+					"name": "Air Slash",
+					"learnsAtLevel": 1,
+					"canLearnByLevelUp": true,
+					"learnsByEvolving": false
+				},
+				{
+					"name": "Dragon Claw",
+					"learnsAtLevel": 1,
+					"canLearnByLevelUp": true,
+					"learnsByEvolving": false
+				},
+				{
+					"name": "Heat Wave",
+					"learnsAtLevel": 1,
+					"canLearnByLevelUp": true,
+					"learnsByEvolving": false
+				},
+				{
+					"name": "Scratch",
+					"learnsAtLevel": 1,
+					"canLearnByLevelUp": true,
+					"learnsByEvolving": false
+				},
+				{
+					"name": "Growl",
+					"learnsAtLevel": 1,
+					"canLearnByLevelUp": true,
+					"learnsByEvolving": false
+				},
+				{
+					"name": "Ember",
+					"learnsAtLevel": 1,
+					"canLearnByLevelUp": true,
+					"learnsByEvolving": false
+				},
+				{
+					"name": "Smokescreen",
+					"learnsAtLevel": 1,
+					"canLearnByLevelUp": true,
+					"learnsByEvolving": false
+				},
+				{
+					"name": "Dragon Breath",
+					"learnsAtLevel": 12,
+					"canLearnByLevelUp": true,
+					"learnsByEvolving": false
+				},
+				{
+					"name": "Fire Fang",
+					"learnsAtLevel": 19,
+					"canLearnByLevelUp": true,
+					"learnsByEvolving": false
+				}
+			]
 		}
 	]
 }
