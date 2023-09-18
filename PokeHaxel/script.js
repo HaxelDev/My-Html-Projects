@@ -1,5 +1,25 @@
 const pokemonData = [
     {
+        name: "Bulbasaur",
+        type: "Grass / Poison",
+        attacks: ["Vine Whip", "Razor Leaf", "Poison Powder"],
+        description: "Bulbasaur is a dual-type Pokemon, Grass and Poison. It has a plant bulb on its back that grows as it evolves.",
+        evolvesTo: "Ivysaur"
+    },
+    {
+        name: "Ivysaur",
+        type: "Grass / Poison",
+        attacks: ["Vine Whip", "Razor Leaf", "Poison Powder"],
+        description: "Ivysaur is the evolved form of Bulbasaur. It is a dual-type Pokemon, Grass and Poison, known for the large plant bulb on its back.",
+        evolvesTo: "Venusaur"
+    },
+    {
+        name: "Venusaur",
+        type: "Grass / Poison",
+        attacks: ["Vine Whip", "Razor Leaf", "Poison Powder", "Solar Beam"],
+        description: "Venusaur is the final evolved form of Bulbasaur. It is a dual-type Pokemon, Grass and Poison, known for its large flower on its back and powerful grass-based attacks."
+    },
+    {
         name: "Charmander",
         type: "Fire",
         attacks: ["Ember", "Flamethrower", "Scratch"],
@@ -38,26 +58,6 @@ const pokemonData = [
         type: "Water",
         attacks: ["Hydro Pump", "Water Pulse", "Ice Beam"],
         description: "Blastoise is the final evolved form of Wartortle. It is a Water-type Pokemon known for its immense water cannon on its back and powerful water-based attacks."
-    },
-    {
-        name: "Bulbasaur",
-        type: "Grass / Poison",
-        attacks: ["Vine Whip", "Razor Leaf", "Poison Powder"],
-        description: "Bulbasaur is a dual-type Pokemon, Grass and Poison. It has a plant bulb on its back that grows as it evolves.",
-        evolvesTo: "Ivysaur"
-    },
-    {
-        name: "Ivysaur",
-        type: "Grass / Poison",
-        attacks: ["Vine Whip", "Razor Leaf", "Poison Powder"],
-        description: "Ivysaur is the evolved form of Bulbasaur. It is a dual-type Pokemon, Grass and Poison, known for the large plant bulb on its back.",
-        evolvesTo: "Venusaur"
-    },
-    {
-        name: "Venusaur",
-        type: "Grass / Poison",
-        attacks: ["Vine Whip", "Razor Leaf", "Poison Powder", "Solar Beam"],
-        description: "Venusaur is the final evolved form of Bulbasaur. It is a dual-type Pokemon, Grass and Poison, known for its large flower on its back and powerful grass-based attacks."
     }
 ];
 
