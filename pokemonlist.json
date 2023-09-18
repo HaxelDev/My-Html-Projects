@@ -1,0 +1,208 @@
+{
+	"list": [
+		{
+			"name": "Bulbasaur",
+			"dexNo": 1,
+			"heightMeters": 0.7,
+			"weightKg": 6.9,
+			"weightLbs": 15.2,
+			"genderless": false,
+			"maleRatio": 88.14,
+			"types": [
+				"Grass",
+				"Poison"
+			],
+			"jpName": "フシギダネ",
+			"jpNameRomanized": "Fushigidane",
+			"decsription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"eggGroups": [
+				"Monster",
+				"Grass"
+			],
+			"evolutionInfo": {
+				"canEvolve": true,
+				"evolvesTo": [
+					"Ivysaur"
+				],
+				"evolutionMethod": "Level Up",
+				"evolvesAtLevel": 16,
+				"evolutionItem": null,
+				"heldItemAtTrade": null
+			},
+			"attacks": [
+				{
+					"name": "Tackle",
+					"learnsAtLevel": 1,
+					"canLearnByLevelUp": true,
+					"learnsByEvolving": false
+				},
+				{
+					"name": "Growl",
+					"learnsAtLevel": 1,
+					"canLearnByLevelUp": true,
+					"learnsByEvolving": false
+				},
+				{
+					"name": "Vine Whip",
+					"learnsAtLevel": 3,
+					"canLearnByLevelUp": true,
+					"learnsByEvolving": false
+				},
+				{
+					"name": "Growth",
+					"learnsAtLevel": 6,
+					"canLearnByLevelUp": true,
+					"learnsByEvolving": false
+				}
+			]
+		},
+		{
+			"name": "Ivysaur",
+			"dexNo": 2,
+			"heightMeters": 1,
+			"weightKg": 13,
+			"weightLbs": 28.7,
+			"genderless": false,
+			"maleRatio": 88.14,
+			"types": [
+				"Grass",
+				"Poison"
+			],
+			"jpName": "フシギソウ",
+			"jpNameRomanized": "Fushigisou",
+			"decsription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"eggGroups": [
+				"Monster",
+				"Grass"
+			],
+			"evolutionInfo": {
+				"canEvolve": true,
+				"evolvesTo": [
+					"Venusaur"
+				],
+				"evolutionMethod": "Level Up",
+				"evolvesAtLevel": 32,
+				"evolutionItem": null,
+				"heldItemAtTrade": null
+			},
+			"attacks": [
+				{
+					"name": "Tackle",
+					"learnsAtLevel": 1,
+					"canLearnByLevelUp": true,
+					"learnsByEvolving": false
+				},
+				{
+					"name": "Growl",
+					"learnsAtLevel": 1,
+					"canLearnByLevelUp": true,
+					"learnsByEvolving": false
+				},
+				{
+					"name": "Vine Whip",
+					"learnsAtLevel": 1,
+					"canLearnByLevelUp": true,
+					"learnsByEvolving": false
+				},
+				{
+					"name": "Growth",
+					"learnsAtLevel": 1,
+					"canLearnByLevelUp": true,
+					"learnsByEvolving": false
+				},
+				{
+					"name": "Leech Seed",
+					"learnsAtLevel": 9,
+					"canLearnByLevelUp": true,
+					"learnsByEvolving": false
+				}
+			]
+		},
+		{
+			"name": "Venusaur",
+			"dexNo": 3,
+			"heightMeters": 2,
+			"weightKg": 100,
+			"weightLbs": 220.5,
+			"genderless": false,
+			"maleRatio": 88.14,
+			"types": [
+				"Grass",
+				"Poison"
+			],
+			"jpNameRomanized": "Fushigibana",
+			"jpName": "フシギバナ",
+			"decsription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"eggGroups": [
+				"Monster",
+				"Grass"
+			],
+			"evolutionInfo": {
+				"canEvolve": false,
+				"evolvesTo": [
+					null
+				],
+				"evolutionMethod": null,
+				"evolvesAtLevel": 0,
+				"evolutionItem": null,
+				"heldItemAtTrade": null
+			},
+			"attacks": [
+				{
+					"name": "Petal Blizzard",
+					"learnsAtLevel": 1,
+					"canLearnByLevelUp": false,
+					"learnsByEvolving": true
+				},
+				{
+					"name": "Petal Blizzard",
+					"learnsAtLevel": 1,
+					"canLearnByLevelUp": true,
+					"learnsByEvolving": false
+				},
+				{
+					"name": "Petal Dance",
+					"learnsAtLevel": 1,
+					"canLearnByLevelUp": true,
+					"learnsByEvolving": false
+				},
+				{
+					"name": "Tackle",
+					"learnsAtLevel": 1,
+					"canLearnByLevelUp": true,
+					"learnsByEvolving": false
+				},
+				{
+					"name": "Growl",
+					"learnsAtLevel": 1,
+					"canLearnByLevelUp": true,
+					"learnsByEvolving": false
+				},
+				{
+					"name": "Vine Whip",
+					"learnsAtLevel": 1,
+					"canLearnByLevelUp": true,
+					"learnsByEvolving": false
+				},
+				{
+					"name": "Growth",
+					"learnsAtLevel": 1,
+					"canLearnByLevelUp": true,
+					"learnsByEvolving": false
+				},
+				{
+					"name": "Leech Seed",
+					"learnsAtLevel": 9,
+					"canLearnByLevelUp": true,
+					"learnsByEvolving": false
+				},
+				{
+					"name": "Razor Leaf",
+					"learnsAtLevel": 12,
+					"canLearnByLevelUp": true,
+					"learnsByEvolving": false
+				}
+			]
+		}
+	]
+}
