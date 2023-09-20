@@ -15,6 +15,7 @@
 			"jpName": "フシギダネ",
 			"jpNameRomanized": "Fushigidane",
 			"decsription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"classification": "Seed",
 			"eggGroups": [
 				"Monster",
 				"Grass"
@@ -71,6 +72,7 @@
 			"jpName": "フシギソウ",
 			"jpNameRomanized": "Fushigisou",
 			"decsription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"classification": "Seed",
 			"eggGroups": [
 				"Monster",
 				"Grass"
@@ -133,6 +135,7 @@
 			"jpNameRomanized": "Fushigibana",
 			"jpName": "フシギバナ",
 			"decsription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"classification": "Seed",
 			"eggGroups": [
 				"Monster",
 				"Grass"
@@ -218,6 +221,7 @@
 			"jpNameRomanized": "Hitokage",
 			"jpName": "ヒトカゲ",
 			"decsription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"classification": "Lizard",
 			"eggGroups": [
 				"Monster",
 				"Dragon"
@@ -279,6 +283,7 @@
 			"jpName": "Lizardo",
 			"jpNameRomanized": "リザード",
 			"decsription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"classification": "Flame",
 			"eggGroups": [
 				"Monster",
 				"Dragon"
@@ -341,6 +346,7 @@
 			"jpNameRomanized": "Lizardon",
 			"jpName": "リザードン",
 			"decsription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"classification": "Flame",
 			"eggGroups": [
 				"Monster",
 				"Dragon"
@@ -413,6 +419,117 @@
 				{
 					"name": "Fire Fang",
 					"learnsAtLevel": 19,
+					"canLearnByLevelUp": true,
+					"learnsByEvolving": false
+				}
+			]
+		},
+		{
+			"name": "Squirtle",
+			"dexNo": 7,
+			"heightMeters": 0.5,
+			"weightKg": 9,
+			"genderless": false,
+			"maleRatio": 88.14,
+			"types": [
+				"Water"
+			],
+			"jpNameRomanized": "Zenigame",
+			"jpName": "ゼニガメ",
+			"decsription": "Decsription",
+			"classification": "Tiny Turtle",
+			"eggGroups": [
+				"Monster",
+				"Water 1"
+			],
+			"evolutionInfo": {
+				"canEvolve": true,
+				"evolvesTo": [
+					"Wartortle"
+				],
+				"evolutionMethod": "Level Up",
+				"evolvesAtLevel": 16,
+				"evolutionItem": null,
+				"heldItemAtTrade": null
+			},
+			"attacks": [
+				{
+					"name": "Struggle",
+					"learnsAtLevel": 1,
+					"canLearnByLevelUp": true,
+					"learnsByEvolving": false
+				}
+			]
+		},
+		{
+			"name": "Wartortle",
+			"dexNo": 8,
+			"heightMeters": 1,
+			"weightKg": 22.5,
+			"genderless": false,
+			"maleRatio": 88.14,
+			"types": [
+				"Water"
+			],
+			"jpNameRomanized": "Kameil",
+			"jpName": "カメール",
+			"decsription": "Decsription",
+			"classification": "Turtle",
+			"eggGroups": [
+				"Monster",
+				"Water 1"
+			],
+			"evolutionInfo": {
+				"canEvolve": true,
+				"evolvesTo": [
+					"Blastoise"
+				],
+				"evolutionMethod": "Level Up",
+				"evolvesAtLevel": 16,
+				"evolutionItem": null,
+				"heldItemAtTrade": null
+			},
+			"attacks": [
+				{
+					"name": "Struggle",
+					"learnsAtLevel": 1,
+					"canLearnByLevelUp": true,
+					"learnsByEvolving": false
+				}
+			]
+		},
+		{
+			"name": "Blastoise",
+			"dexNo": 9,
+			"heightMeters": 1.6,
+			"weightKg": 85.5,
+			"genderless": false,
+			"maleRatio": 88.1,
+			"types": [
+				"Water"
+			],
+			"jpNameRomanized": "Kamex",
+			"jpName": "カメックス",
+			"decsription": "Decsription",
+			"classification": "Shellfish",
+			"eggGroups": [
+				"Monster",
+				"Water 1"
+			],
+			"evolutionInfo": {
+				"canEvolve": false,
+				"evolvesTo": [
+					null
+				],
+				"evolutionMethod": null,
+				"evolvesAtLevel": 0,
+				"evolutionItem": null,
+				"heldItemAtTrade": null
+			},
+			"attacks": [
+				{
+					"name": "Struggle",
+					"learnsAtLevel": 1,
 					"canLearnByLevelUp": true,
 					"learnsByEvolving": false
 				}

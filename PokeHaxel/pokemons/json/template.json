@@ -1,0 +1,35 @@
+{
+	"name": "Name",
+	"dexNo": 0,
+	"heightMeters": 0,
+	"weightKg": 0,
+	"genderless": true,
+	"maleRatio": 0,
+	"types": [
+		"Normal"
+	],
+	"jpNameRomanized": "Romanized Japanese Name",
+	"jpName": "Japanese Pokemon Name in Hiragana",
+	"decsription": "Decsription",
+	"classification": null,
+	"eggGroups": null,
+	"evolutionInfo": {
+		"canEvolve": false,
+		"evolvesTo": [
+			null
+		],
+		"evolutionMethod": null,
+		"evolvesAtLevel": 0,
+		"evolutionItem": null,
+		"heldItemAtTrade": null
+	},
+	"attacks": [
+		{
+			"name": "Struggle",
+			"learnsAtLevel": 1,
+			"canLearnByLevelUp": true,
+			"learnsByEvolving": false
+		}
+	],
+	"megaEvolutionInfo": null
+}
