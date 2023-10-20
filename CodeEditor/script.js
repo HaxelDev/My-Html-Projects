@@ -81,9 +81,10 @@ function showMessage(message, isError = false) {
     messageDiv.textContent = message;
     document.body.appendChild(messageDiv);
 
-    setTimeout(() => {
+    gsap.to(messageDiv, { opacity: 1, duration: 0.3 });
+    gsap.to(messageDiv, { opacity: 0, duration: 0.3, delay: 2, onComplete: () => {
         document.body.removeChild(messageDiv);
-    }, 3000);
+    }});
 }
 
 function saveFile() {
