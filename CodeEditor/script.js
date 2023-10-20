@@ -28,6 +28,7 @@ function resetConsole() {
 function createFile() {
     const overlay = document.getElementById('overlay');
     overlay.style.display = 'flex';
+
     const createButton = document.getElementById('create-button');
     const cancelButton = document.getElementById('cancel-button');
     const fileNameInput = document.getElementById('file-name');
