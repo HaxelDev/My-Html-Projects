@@ -9,10 +9,26 @@
 </head>
 <body>
     <h1>CodeEditor</h1>
-    <br>
-    <textarea id="editor"></textarea>
-    <button onclick="runCode()">Run Code</button>
-    <button onclick="resetConsole()">Reset Console</button>
+    <div id="overlay" class="overlay">
+        <div id="message-box" class="message-box">
+            <h3>Enter a file name:</h3>
+            <input type="text" id="file-name" />
+            <button id="create-button" class="green-button">Create</button>
+            <button id="cancel-button" class="red-button">Cancel</button>
+        </div>
+    </div>
+    <div class="editor-container">
+        <textarea id="editor"></textarea>
+        <button onclick="runCode()">Run Code</button>
+        <button onclick="resetConsole()">Reset Console</button>
+    </div>
+    <div class="file-container">
+        <button onclick="createFile()">Create File</button>
+        <select id="fileSelect" onchange="loadFile()">
+            <option value="" disabled selected>Select a File</option>
+        </select>
+        <button onclick="saveFile()">Save File</button>
+    </div>
     <h2>Console:</h2>
     <pre id="console"></pre>
 </body>
